@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.jliam2003-create.lock",
+  "name": "Lock Screen Keyboard",
+  "version": "1.0.0",
+  "author": "Joshua",
+  "license": "MIT",
+  "description": "Omarchy lock screen with an embedded on-screen virtual keyboard inside WlSessionLockSurface so you can unlock with touch or mouse alongside PAM password and fingerprint flows.",
+  "omarchy": {
+    "capabilities": [
+      "authentication"
+    ],
+    "clonedFrom": "omarchy.lock"
+  },
+  "kinds": [
+    "service"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
